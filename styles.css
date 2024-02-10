@@ -1,0 +1,53 @@
+/* CSS for category buttons */
+.category-buttons {
+    display: flex;
+    justify-content: center; /* Align buttons in the middle horizontally */
+    margin-bottom: 20px;
+}
+
+.category-buttons button {
+    margin: 0 10px;
+    padding: 15px 30px; /* Increase padding for larger buttons */
+    font-size: 18px; /* Increase font size for better readability */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* CSS for button colors */
+.love {
+    background-color: LightPink; /* Love category color */
+    color: #fff; /* Text color */
+}
+
+.support {
+    background-color: PowderBlue; /* Support category color */
+    color: #fff; /* Text color */
+}
+
+.adventure {
+    background-color: khaki; /* Adventure category color */
+    color: #fff; /* Text color */
+}
+
+.communication {
+    background-color: MediumSpringGreen; /* Communication category color */
+    color: #fff; /* Text color */
+}
+
+/* Hover styles for category buttons */
+.category-buttons button:hover {
+    opacity: 0.8; /* Reduce opacity on hover for visual feedback */
+}
+
+/* CSS for Create Promise button */
+.message-form button {
+    background-color: #4CAF50; /* Green button */
+    display: none; /* Initially hide the Create Promise button */
+}
+
+/* CSS for Your Promise text and input box */
+.message-form h2,
+.message-form textarea {
+    display: none; /* Initially hide Your Promise text and input box */
+}
